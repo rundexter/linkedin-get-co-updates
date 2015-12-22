@@ -1,4 +1,4 @@
-# LinkedIn Get Profile
+# LinkedIn Get Company Updates
 
 ### DOCS
 https://developer.linkedin.com/docs/company-pages#company_updates
