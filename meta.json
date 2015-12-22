@@ -4,23 +4,58 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"Company ID"
+        },
+        {
+            "id": "event",
+            "title":"Event Type"
+        },
+        {
+            "id": "start",
+            "title":"Start"
+        },
+        {
+            "id": "count",
+            "title":"Count"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "numLikes",
+            "title":"Likes"
+        },
+        {
+            "id": "timestamp",
+            "title":"Timestamp"
+        },
+        {
+            "id": "updateContent_company_id",
+            "title":"Company ID"
+        },
+        {
+            "id": "updateContent_company_name",
+            "title":"Company Name"
+        },
+        {
+            "id": "companyStatusUpdate_share_comment",
+            "title":"Comment"
+        },
+        {
+            "id": "companyStatusUpdate_share_content_description",
+            "title":"Description"
+        },
+        {
+            "id": "companyStatusUpdate_share_content_shortenedUrl",
+            "title":"URL"
+        },
+        {
+            "id": "companyStatusUpdate_share_content_title",
+            "title":"Title"
         }
-      */
     ],
+    "icon": "linkedin",
     "title": "LinkedIn Get Company Updates" /* Required.A display name for the module */
 }
