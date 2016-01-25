@@ -56,6 +56,12 @@
             "title":"Title"
         }
     ],
+    "providers": [{
+        "name": "linkedin",
+        "scopes": [
+            "rw_company_admin"
+        ]
+    }],
     "icon": "linkedin",
     "title": "LinkedIn Get Company Updates" /* Required.A display name for the module */
 }
