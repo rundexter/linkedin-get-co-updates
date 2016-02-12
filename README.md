@@ -1,4 +1,5 @@
 # LinkedIn Get Company Updates
+Get a list of update events from the from the LinkedIn company page of the company identified by the {id} value in the request.
 
 ### DOCS
 https://developer.linkedin.com/docs/company-pages#company_updates
